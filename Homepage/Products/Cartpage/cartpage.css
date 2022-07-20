@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+h1{
+    color: #44d62c;
+    font-size: 2.4rem;
+}
+/* CART CSS START */
+
+.cart-page{
+    margin: 20px auto;
+}
+
+table{
+    width: 96%;
+    border-collapse: collapse;
+    margin-left: 2%;
+}
+
+.cart-info{
+    display:flex;
+    flex-wrap:wrap;
+}
+.cartproducts th{
+    text-align: left;
+    padding: 5px;
+    color:#fff;
+    background: #242526;
+    font-weight: normal;
+    font-size: 1.5rem;
+    border: 0.5px solid rgb(70, 70, 70);
+}
+.cartproducts td{
+    padding: 10px 5px;
+    color:white;
+    font-size: 1.3rem;
+    background: #161616;
+    border: 0.5px solid rgb(54, 54, 54);
+}
+.cartproducts td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+.cartproducts td a{
+    color: red;
+    font-size: 15px;
+}
+
+.cartproducts td img{
+    width: 180px;
+    height: 150px;
+    margin-right: 10px;
+}
+.cart-pdetails{
+    color:white;
+}
+.cart-pdetails p{
+    color:white;
+    font-size: 1.7rem;
+}
+.cart-pdetails small{
+    color:white;
+    font-size: 1.2rem;
+    opacity: 80%;
+}
+.cart-pdetails h3{
+    color:white;
+    font-size: 1rem;
+}
+input[type=number]{
+    color:white;
+    background-color: rgb(70, 70, 70);
+    border:none;
+}
+
+.cartproducts .total-price{
+    display:flex;
+    justify-content: flex-end;
+}
+
+
+.total-price table{
+    border-top: 5px solid #44d62c;
+    width: 96%;
+    /* max-width: 500px; */
+    /* float:right; */
+    margin-left: 2%;
+}
+
+.total-price tr td{
+    background: #161616;
+    border: 0.5px solid rgb(54, 54, 54);
+    font-size: 1.3rem;
+    color:#fff;
+    height: 60px;
+    text-align: right;
+    padding-right: 10px;
+    opacity: 70%;
+}
+
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+
+@media only screen and (max-width: 500px){
+    .cart-pdetails h3{
+        display: none;
+    }
+    table{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .total-price table{
+        margin-left: 2px;
+        margin-right: 2px;
+        width: 100%;
+    }
+}
+
+/* CART CSS END */
+
+/* DISCOUNT SECTION */
+
+.discountcolumn{
+    float:left;
+    width: 50%;
+}
+
+.discountgrid{
+    background-color: #242526;
+    width: 94%;
+    height: 120px;
+    margin-left: 4%;
+    padding-top: 5px;
+}
+.discountgrid text{
+    color:#fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 30%;
+}
+.discountgrid input{
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 8px;
+    width: 80%;
+    height: 40px;
+    color:#fff;
+    background-color: black;
+    border:none;
+    text-align: center;
+}
+
+.discountgrid button{
+    color:black;
+    background-color: #44d62c;
+    width:15%;
+    height:40px;
+    font-size: 18px;
+    cursor:pointer; 
+}
+
+.discountgrid input[type=text]::placeholder{
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.paymentgrid{
+    background-color: #0080ff;
+    width: 96%;
+    height: 120px;
+    /* margin-left: 4%; */
+    /* float:left; */
+}
+
+.paymentgrid button{
+    width:100%;
+    height: 50%;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #44d62c;
+    font-weight: 700;
+    border:1px solid black;
+    cursor:pointer; 
+}
+.paymentgrid button:hover{
+    background-color: #22ff00;
+}
+
+@media only screen and (max-width: 500px){
+
+    .discountgrid{
+        margin-left: 2px;
+    }
+    .paymentgrid button{
+        font-size: 20px;
+    }
+
+}
+@media only screen and (max-width: 604px){
+    .discountgrid text{
+        margin-left: 12px;
+        font-size: 18px;
+    }
+    .discountgrid input{
+        width:90%;
+    }
+    .discountgrid button{
+        width:90%;
+        height: 35px;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+    /* DISCOUNT SECTION */
+
+    /* FOOTER */
+    footer {
+        color: #44d62c;
+        background: #242526;
+        /* position: relative  ; */
+        bottom: 0px;
+        padding: 17px 0 18px 0;
+        text-align: center;
+        width: 100%;
+        bottom: 0px;
+        font-size: 1.3rem;
+      } 
+    
+    footer .p{
+        padding-left: 100px;
+    }
+      /* responsive footer fix by Aalaap Ghag 
+      This is where the magic happens */
+      @media (max-width: 767px) {
+      
+        footer  {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+    
+
+
+
+        /* FOOTER */

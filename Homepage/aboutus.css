@@ -1,0 +1,103 @@
+body{
+  background-color: black;
+}
+
+.aboutus{
+    width:100%;
+    background-color: black;
+    padding-top: 40px;
+}
+.aboutus h1{
+    color: white;
+    font-size: 2.5vw;
+    opacity: 80%;
+    padding-top: 10px;
+}
+.aboutus text{
+    color: white;
+    font-size: 1.8vw;
+    opacity: 35%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  
+  .wrapper{
+    margin-top: 50px;
+  }
+  
+  .team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .team .team_member{
+    background: #242426;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 450px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;  
+    position: relative;
+  }
+  
+  .team .team_member h3{
+    color: #44d62c;
+    font-size: 26px;
+    margin-top: 50px;
+  }
+  
+  .team .team_member p.role{
+    color: #ccc;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .team .team_member .team_img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: grey;
+    border: 2px solid black;
+  }
+  
+  .team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+  
+.details{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.8vw;
+  color: #7e7e83;
+  text-align: center;
+  opacity:90%;
+}
+
+.details1{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.8vw;
+  color: #7e7e83;
+  text-align: center;
+}
+
+.details1:hover{
+  font-size: 2.0vw;
+  cursor: pointer;
+}

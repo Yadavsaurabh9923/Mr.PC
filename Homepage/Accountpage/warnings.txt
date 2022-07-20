@@ -1,0 +1,9 @@
+1] Orders need to have foreign key
+
+2] Set delete Account and delete all details from all tables
+
+3] If session expires redirect to login
+
+4] Unset the session instead of destroying
+
+5] Make logout button active

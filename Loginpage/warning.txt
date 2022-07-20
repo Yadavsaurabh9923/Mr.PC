@@ -1,0 +1,3 @@
+
+2] Use of prepared Statements
+3] Increase Session time by default 24 mins/1440 secs
